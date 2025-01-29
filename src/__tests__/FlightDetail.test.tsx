@@ -3,6 +3,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FlightDetail from '../components/FlightDetail';
 import { fetchFlightDetails } from '../api';
+import '@testing-library/jest-dom';
 
 // Mock the API module
 vi.mock('../api', () => ({
