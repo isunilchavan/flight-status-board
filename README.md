@@ -5,6 +5,7 @@ This is a React-based real-time flight status board application built with TypeS
 ## Features
 - **Real-time flight status updates**: The application fetches live data for flight statuses and displays it in an easy-to-read interface.
 - **API Integration**: Integrated with a flight status API to fetch real-time data.
+- **Automatic Updates**: Every 30 seconds, fresh data is fetched from the API to update the displayed flight statuses.
 - **Navigation**: Handles route navigation using React Router.
 - **Error Handling**: Displays appropriate messages in case of data fetching errors.
 - **Unit Testing**: Includes tests written with Jest and Vitest for core functionalities.
